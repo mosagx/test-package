@@ -3,8 +3,8 @@ namespace Mosagx;
 
 interface TestPackageInterface {
 
-    public function test();
+    public static function test();
 
-    public function PHP();
+    public static function PHP();
 
 }
