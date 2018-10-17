@@ -1,0 +1,17 @@
+{
+    "name": "mosagx/test-package",
+    "description": "This is a test package for composer",
+    "authors": [
+        {
+            "name": "mosagx",
+            "email": "chensheng@mianchao-inc.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mosagx\\": "src/"
+        }
+    },
+    "require": {}
+}
